@@ -1,0 +1,455 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* overflow-x: hidden; */
+}
+/* css to first page */
+.first{
+    background-color: #265b88;
+    /* background-color: #163A59; */
+    height: 120vh;
+    width: 99.590%;
+}
+.first span{
+    color: #EDCD54;
+
+}
+.first .free-trial{
+    right: 91px;
+    top: -15px;
+    position: absolute;
+    color: black;
+    background-color: #EDCD54;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 30px;
+}
+.first-page-background-img{
+    height: 120vh;
+    width: 99.590%;
+    z-index: -1;
+    opacity: .6;
+}
+
+.first > .logo > .konnect-logo-img{
+    height: 144px;
+    /* background-color: red; */
+    width: 213px;
+    position: absolute;
+    top: -30px;
+    left: 100px;
+    /* z-index: 2; */
+}
+.first .content1{
+    left: 10%;
+    width: 600px;
+    position: absolute;
+    top: 150px;
+    color: #FFF;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.first .content2{
+    position: absolute;
+    top: 420px;
+    width: 600px;
+    left:10%;
+    color: #A6B6C4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+.first .content3{
+    position: absolute;
+    top: 650px;
+    width: 600px;
+    left:32%;
+    color: #A6B6C4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    color: #A6B6C4;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 2.4px;
+}
+.first .form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    /* padding: 20px; */
+    height: 494px;
+    /* height: 350px; */
+    width: 420px;
+    /* width: 320px; */
+    top: 100px;
+    /* width: 600px; */
+    left:65%;
+    color: #A6B6C4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #09243C;
+    border: 2.826px solid #163A59;
+    border-radius: 9.12px;
+}
+.first .form label{
+    padding-top: 5px;
+}
+.first .form .ex{
+    background-color: #EDCD54;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    color: #070707;
+    align-items: end;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    line-height: normal;
+}
+.first .form input{
+    padding: 5px;
+    height: 48px;
+    width: 348px;
+    color: #FFF;
+    background-color:#163A59 ;
+    border-radius: 9px;
+    border: none;
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+.first .form .form-btn{
+    /* ----------- */
+    position:static;
+    margin-top: 30px;
+    margin-left: 190px;
+    /* top: 400px; */
+    /* right: 40px; */
+}
+.first .form span{
+    margin-left: 205px;
+}
+.first .allbrands{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -100px;
+    color: #EDCD54;
+    /* z-index: 10; */
+    /* background-color: #F17A7A; */
+}
+.first .allbrands .logos{
+    padding: 10px;
+    border: 1px solid #6b7280d7;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    z-index: 11;
+}
+.first .allbrands .logos img{
+    height: 40px;
+    width: 44px;
+
+    /* z-index: 10; */
+}
+
+/* css to 2nd page */
+.second{
+    height: 100vh;
+    width: 99.590%;
+}
+.second .content1{
+    margin-top: 100px;
+    font-size: 30px;
+    font-weight:bolder;
+}
+.second .content2{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second .content2 .box{
+    height: 200px;
+    padding: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    border: 2px solid  #6b728033;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    /* background-color: red; */
+}
+.second .content3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.second .content3 img{
+    padding: 5px;
+}
+.free-trial{
+    margin-top: 30px;
+    color: black;
+    background-color: #EDCD54;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+}
+.noCC{
+    font-weight: 500;
+}
+/* css to 3rd page------------------------------------ */
+.third{
+    height: 100vh;
+    width: 99.590%;
+    /* background-color: yellow; */
+}
+.third >.content1{
+    font-weight: bolder;
+}
+.third .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e7e7e7;
+    padding: 20px;
+    margin: 10px;
+    /* width: 500px; */
+    border-radius: 10px;
+    box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.10);
+
+}
+.third .box .img{
+    height: 56px;
+    width: 56px;
+    margin-right: 15px;
+    border: 2px solid #6b728033;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    padding: 10px;
+    margin: 10px;
+
+}
+.third .content2{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 100px;
+}
+.third .content3{
+    color: rgba(0, 0, 0, 0.75);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+
+/* css to 4rth page----------------------------------- */
+.buttons{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.btn{
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin:1px;
+    color: #101010;
+    border:1px solid rgba(220, 220, 220, 0.558);
+    background-color: rgba(220, 220, 220, 0.558);
+}
+.btn:hover{
+    background-color: #FFB7B7;
+    color: black;
+    border:1px solid #F17A7A;
+
+}
+.open{
+    background-color: #FFB7B7;
+    color: black;
+    border:1px solid #F17A7A;
+
+}
+
+.content{
+    display: flex;
+
+}
+.fourth{
+    overflow: hidden;
+    height: 100vh;
+    width: 99.590%;
+
+}
+.fourth .window{
+    /* background-color: red; */
+    height: 100vh;
+    width: 99.590%;
+}
+
+.h2{
+    font-size: 20px;
+    font-weight: 700;
+}
+/* css at img */
+.img-index{
+    height: 430px;
+    width: 530px;
+    padding-top: 40px;
+
+}
+/* css to fifth page */
+.five{
+    height: 110vh;
+    width: 99.590%;
+    background-color: #265b88;
+}
+.five .img{
+    height: 110vh;
+    width: 99.590%;
+
+}
+.five .content1{
+    font-weight: bold;
+    position: absolute;
+    top: 455vh;
+    margin-left: 10%;
+}
+.five .box span{
+    font-size: 24px;
+    font-weight: 500;
+    color: #FFF;
+}
+.five .box .img1{
+    height: 202px;
+    width: 153px;
+}
+.five > .content2{
+    margin-top: -570px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: green; */
+}
+.five > .content2 > .box{
+    width: 300px;
+    /* background-color: red; */
+    /* margin: 5px; */
+    /* padding: 20px; */
+    color: #A6B6C4;;
+    text-align: center;
+
+}
+.five .content2 .circle{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    /* color: red; */
+    background-color: white;
+    /* ---------------- */
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 57px;
+
+}
+.five .content2  .svg{
+    position: absolute;
+    margin-top: -145px;
+    margin-left: 63px;
+}
+.five .content2  .svg1{
+    margin-left: 65px;
+}
+
+
+
+/* css to 6th page */
+.six{
+    height: 100vh;
+    width: 99.590%;
+}
+.six .content1{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 840px;
+    background-color: #FFF;
+}
+.six .content2{
+    margin-top: 195px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.six .content2 .box{
+    width: 386px;
+    height: 415px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #E9E9E9;
+    color: #404040;
+    background: #FFF;
+    box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.10);
+}
+.six .content2 .box .line{
+    width: 387px;
+    border: 2px solid #E9E9E9;
+    position: sticky;
+    top: 280px;
+    /* left: 100px; */
+    margin-left: -22px;
+
+}
+.six .content2 .box span{
+    color: #070707;
+    font-size: 18px;
+    display: block;
+    font-weight: 600;
+
+}
+.six .content2 .box .sub-box{
+    margin-top: 70px;
+    display: flex;
+}
+.six .content2 .box img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+    filter: grayscale(100%);
+}
+
+/* css to seven page */
+.seven{
+    height: 100vh;
+    width: 99.590%;
+    /* background-color: teal; */
+    margin-top: 110vh;
+    font-weight: 800;
+    /* position: absolute; */
+    /* bottom: 0; */
+}
+.seven img{
+    height: 503px;
+    width: 1084px;
+    margin-top: 50px;
+    margin-left: 10%;
+}
